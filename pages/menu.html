@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krusty Krab 🍔</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="../script.js" defer></script>
+    <script src="../script2.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../Imgs/logo.png" alt="Krusty Krab Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a data-translate="home" href="../index.html">Home</a></li>
+          <li><a data-translate="menu" href="menu.html">Menu</a></li>
+          <li><a data-translate="about" href="about.html">About</a></li>
+        </ul>
+        <select name="translate" id="translate">
+          <option data-translate="en" value="en">English</option>
+          <option data-translate="ar" value="ar">Arabic</option>
+        </select>
+      </nav>
+    </header>
+
+    <div id="app">
+      <!-- Burger Department -->
+      <section class="department">
+        <div class="head">
+          <h1 data-translate="menu_head1">Burger</h1>
+        </div>
+        <div class="container">
+          <!-- Krabby Patty -->
+          <div class="card">
+            <img src="../Imgs/burger1.webp" alt="Krabby Patty" />
+            <h2 data-translate="burger1">Krabby Patty</h2>
+            <p data-translate="burger1_description">
+              It is the best-known item at the restaurant and the most famous
+              food cooked in Bikini Bottom.
+            </p>
+          </div>
+          <!-- Jelly Patty -->
+          <div class="card">
+            <img src="../Imgs/burger2.webp" alt="Jelly Patty" />
+            <h2 data-translate="burger2">Jelly Patty</h2>
+            <p data-translate="burger2_description">
+              A Krabby Patty with jellyfish jelly on it. There was also a jelly
+              patty with a blue jelly made by Friend, the blue jellyfish.
+            </p>
+          </div>
+          <!-- Pretty Patty -->
+          <div class="card">
+            <img src="../Imgs/burger3.webp" alt="Pretty Patty" />
+            <h2 data-translate="burger3">Pretty Patty</h2>
+            <p data-translate="burger3_description">
+              A colored Krabby Patty. SpongeBob created the colored Krabby Patty
+              to try to draw customers into the Krusty Krab.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Appetizer Department -->
+      <section class="department">
+        <div class="head">
+          <h1 data-translate="menu_head2">Appetizer</h1>
+        </div>
+        <div class="container">
+          <!-- Kelp Jerky -->
+          <div class="card">
+            <img src="../Imgs/appetizer1.webp" alt="Kelp Jerky" />
+            <h2 data-translate="appetizer1">Kelp Jerky</h2>
+            <p data-translate="appetizer1_description">
+              A spoof of beef jerky.
+            </p>
+          </div>
+          <!-- Coral bits -->
+          <div class="card">
+            <img src="../Imgs/appetizer2.webp" alt="Coral bits" />
+            <h2 data-translate="appetizer2">Coral bits</h2>
+            <p data-translate="appetizer2_description">
+              They are a side dish that consists of small bits of pale pink
+              corals served in a red and yellow paper food tray. There is also a
+              chili variation of the product.
+            </p>
+          </div>
+          <!-- Kelp fries -->
+          <div class="card">
+            <img src="../Imgs/appetizer3.jpg" alt="Kelp fries" />
+            <h2 data-translate="appetizer3">Kelp fries</h2>
+            <p data-translate="appetizer3_description">
+              Kelp fries are a common side dish served at the Krusty Krab. They
+              look like normal French fries. However, they somewhat resemble
+              seaweed with the way they are shaped. They have three different
+              appearances.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drink Department -->
+      <section class="department">
+        <div class="head">
+          <h1 data-translate="menu_head3">Drink</h1>
+        </div>
+        <div class="container">
+          <!-- Kelp Shake -->
+          <div class="card">
+            <img src="../Imgs/drink1.webp" alt="Kelp Shake" />
+            <h2 data-translate="drink1">Kelp Shake</h2>
+            <p data-translate="drink1_description">
+              A Kelp Shake is an addictive and potentially toxic soft drink
+              served in the Kelpshake restaurant chain. It comes in a green
+              bottle with a yellow lid and straw, and has a bright yellow label
+              with the drink's name in red text.
+            </p>
+          </div>
+          <!-- Milkshake -->
+          <div class="card">
+            <img src="../Imgs/drink2.webp" alt="Milkshake" />
+            <h2 data-translate="drink2">Milkshake</h2>
+            <p data-translate="drink2_description">
+              It comes in a wide variety of flavors and forms and is usually
+              either served in a generic cardboard cup with a straw or an ice
+              cream sundae glass cup.
+            </p>
+          </div>
+          <!-- Fizzy Fang -->
+          <div class="card">
+            <img src="../Imgs/drink3.webp" alt="Fizzy Fang" />
+            <h2 data-translate="drink3">Fizzy Fang</h2>
+            <p data-translate="drink3_description">
+              "Fizzy Fang" isn't just soda; it's a sparkling sensation in a
+              sleek caramel-brown can. With a bold logo, it nods to classic cola
+              but adds a unique twist for an elevated refreshment experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dessert Department -->
+      <section class="department">
+        <div class="head">
+          <h1 data-translate="menu_head4">Dessert</h1>
+        </div>
+        <div class="container">
+          <!-- Jelly Cake -->
+          <div class="card">
+            <img src="../Imgs/dessert1.webp" alt="Jelly Cake" />
+            <h2 data-translate="dessert1">Jelly Cake</h2>
+            <p data-translate="dessert1_description">
+              A random dessert that SpongeBob takes out of the oven.
+            </p>
+          </div>
+          <!-- Pie -->
+          <div class="card">
+            <img src="../Imgs/dessert2.webp" alt="Pie" />
+            <h2 data-translate="dessert2">Pie</h2>
+            <p data-translate="dessert2_description">
+              It looks just like a regular berry pie, with a golden-brown crust
+              and purple filling inside. However, it is actually a very powerful
+              explosive that detonates when dropped or thrown. It will also
+              explode a few hours after being eaten, killing whoever eats it.
+            </p>
+          </div>
+          <!-- Donut -->
+          <div class="card">
+            <img src="../Imgs/dessert3.webp" alt="Donut" />
+            <h2 data-translate="dessert3">Donut</h2>
+            <p data-translate="dessert3_description">
+              It looks like a regular donut with chocolate and pink sprinkles.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

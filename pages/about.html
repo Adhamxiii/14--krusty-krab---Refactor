@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krusty Krab 🍔</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../Imgs/logo.png" alt="Krusty Krab Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a data-translate="home" href="../index.html">Home</a></li>
+          <li><a data-translate="menu" href="menu.html">Menu</a></li>
+          <li><a data-translate="about" href="about.html">About</a></li>
+        </ul>
+        <select name="translate" id="translate">
+          <option data-translate="en" value="en">English</option>
+          <option data-translate="ar" value="ar">Arabic</option>
+        </select>
+      </nav>
+    </header>
+
+    <section class="history">
+      <div class="history-container">
+        <div
+          class="container-text"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="3000"
+        >
+          <h2 data-translate="history_title">History</h2>
+          <p data-translate="history_text">
+            The Krusty Krab is a popular restaurant due to its Krabby Patty, a
+            burger with a secret recipe. It has two employees, SpongeBob and
+            Squidward, who both love their jobs. The restaurant's main
+            competitor is the Chum Bucket, owned by Plankton, who is Mr. Krabs'
+            worst enemy. Stephen Hillenburg's original name for the restaurant
+            was the "Crusty Crab," but he decided the intentional misspellings
+            of the "C"s for "K"s was funnier. The restaurant itself may have
+            once been an old New England lobster trap, and the original owners
+            may have fixed it up and turned it into a building. Mr. Krabs was
+            once a seafaring pirate and the Krusty Krab was originally his ship,
+            but he sold it after retiring. In "Friend or Foe," it is revealed
+            that Mr. Krabs first went into the fast food business in his
+            childhood, and the Krabby Patty secret formula was created when a
+            shelf was broken during Krabs and Plankton's struggles. The Krabby
+            Patty and its formula is a family recipe, and Squidward and
+            SpongeBob have varying salaries depending on the episode.
+          </p>
+        </div>
+      </div>
+      <img src="../Imgs/history.webp" alt="Restaurant Image" />
+    </section>
+
+    <section class="employee">
+      <img src="../Imgs/employee.webp" alt="Employee Image" />
+      <div class="employee-container">
+        <div
+          class="container-text"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="3000"
+        >
+          <h2 data-translate="team_title">MEET THE TEAM</h2>
+          <p data-translate="team_text">
+            Krusty Krab is supported by a longstanding team of passionate
+            executives and staff working to create personal dining experiences
+            for our guests, underpinned by a generous dose of humble hospitality
+            and a sense of understated luxury. Read on to learn more about the
+            team behind Krusty Krab.
+          </p>
+          <button type="button" class="btn-readMore">
+            <a data-translate="btn" href="#team">READ MORE</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <h2 data-translate="meet_our_team">Meet our Team!</h2>
+      <div class="team-container">
+        <div class="team-card" data-aos="flip-left" data-aos-duration="3000">
+          <img src="../Imgs/team1.webp" alt="Mr. Krap" />
+          <div class="overlay"></div>
+          <div class="team-text">
+            <h3 data-translate="mr_krabs">Eugene H. Krabs</h3>
+            <p data-translate="mr_krabs_description">
+              Owner and founder of the Krusty Krab
+            </p>
+          </div>
+        </div>
+
+        <div class="team-card" data-aos="flip-left" data-aos-duration="3000">
+          <img src="../Imgs/team2.webp" alt="Mr. Krap" />
+          <div class="overlay"></div>
+          <div class="team-text">
+            <h3 data-translate="squidward">Squidward Tentacles</h3>
+            <p data-translate="squidward_description">Krusty Krab cashier</p>
+          </div>
+        </div>
+
+        <div class="team-card" data-aos="flip-left" data-aos-duration="3000">
+          <img src="../Imgs/team3.webp" alt="Mr. Krap" />
+          <div class="overlay"></div>
+          <div class="team-text">
+            <h3 data-translate="spongebob">SpongeBob SquarePants</h3>
+            <p data-translate="spongebob_description">
+              Krusty Krab fry cook, Occasional cashier, waiter, and janitor
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>

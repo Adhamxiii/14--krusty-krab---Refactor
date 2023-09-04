@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krusty Krab 🍔</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Imgs/logo.png" alt="Krusty Krab Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a data-translate="home" href="index.html">Home</a></li>
+          <li><a data-translate="menu" href="pages/menu.html">Menu</a></li>
+          <li><a data-translate="about" href="pages/about.html">About</a></li>
+        </ul>
+        <select name="translate" id="translate">
+          <option data-translate="en" value="en">English</option>
+          <option data-translate="ar" value="ar">Arabic</option>
+        </select>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <img src="Imgs/hero.webp" alt="Restaurant Image" />
+    </main>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <div
+          class="container-text"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="3000"
+        >
+          <h2 data-translate="menu_title">Menu</h2>
+          <p data-translate="menu_text">
+            A progression of rare and beautiful ingredients where texture,
+            flavour and harmony is paramount. Delve into the Krusty Krab dining
+            experience with our famous Krabby Patty burgers.
+          </p>
+          <button class="btn-readMore">
+            <a data-translate="btn" href="pages/menu.html">READ MORE</a>
+          </button>
+        </div>
+      </div>
+      <img src="Imgs/menu.webp" alt="Menu Image" />
+    </section>
+
+    <section class="about-section">
+      <img src="Imgs/about.webp" alt="About Image" />
+      <div class="about-container">
+        <div
+          class="container-text"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="3000"
+        >
+          <h2 data-translate="about_title">About</h2>
+          <p data-translate="about_text">
+            Mr. Krabs loves money and is openly concerned about his profits
+            above all else. He pays his employees cheaply, though SpongeBob
+            doesn't mind, and serves food for high prices.
+          </p>
+          <button class="btn-readMore">
+            <a data-translate="btn" href="pages/about.html">READ MORE</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <img src="Imgs/quote.webp" alt="Quote Image" />
+      <div class="div">
+        <div class="txt-quote">
+          <blockquote>
+            <p data-translate="quote">
+              The Krusty Krab! Come spend your money here!
+            </p>
+          </blockquote>
+          <cite data-translate="quotecite">
+            <span>Mr. Krabs</span><br />
+            CEO of Krusty Krab
+          </cite>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="Imgs/footer logo.png" alt="Krusty Krab Logo" />
+          <p>
+            <span
+              ><i class="fa-solid fa-location-dot" style="color: #737373"></i
+            ></span>
+            Bikini Bottom, Pacific Ocean
+          </p>
+        </div>
+        <div class="links">
+          <p>Links</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/menu.html">Menu</a></li>
+            <li><a href="pages/about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <p>Social</p>
+          <ul>
+            <li>
+              <a href="https://github.com/Adham-XIII"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/adham-nasser-xiii/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:adhamxiii10@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">
+        © Krusty Krab 2023 . All rights reserved |
+        <a href="https://github.com/Adham-XIII">Adham Nasser</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/f0f47bfbb1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" async></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
