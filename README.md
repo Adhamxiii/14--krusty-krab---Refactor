@@ -45,7 +45,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## Live Demo
 
-You can check out a live demo of the Krusty Krab website [here](#).
+You can check out a live demo of the Krusty Krab website [here](https://krusty-krab-one.vercel.app/).
 
 ## Contact Me
 
