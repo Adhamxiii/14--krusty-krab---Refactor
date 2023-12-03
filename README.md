@@ -6,11 +6,13 @@ This repository contains the frontend code for the Krusty Krab website, inspired
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Live Demo](#live-demo)
-- [Contact Me](#contact-me)
+- [Krusty Krab 🍔](#krusty-krab-)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [Live Demo](#live-demo)
+  - [Contact Me](#contact-me)
 
 ## Features
 
@@ -45,11 +47,11 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## Live Demo
 
-You can check out a live demo of the Krusty Krab website [here](https://krusty-krab-one.vercel.app/).
+You can check out a live demo of the Krusty Krab website [here](https://krusty-krab-omega.vercel.app/).
 
 ## Contact Me
 
 If you have any questions or suggestions, feel free to contact me:
 
-- GitHub: [Adham Nasser](https://github.com/Adham-XIII)
-- Linkedin: [Adham Nasser](https://www.linkedin.com/in/adham-nasser-xiii/)
+- GitHub: [Adham Nasser](https://github.com/Adhamxiii)
+- Linkedin: [Adham Nasser](https://www.linkedin.com/in/adhamnasser/)
